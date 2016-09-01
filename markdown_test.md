@@ -1,2 +1,1 @@
-__bold__this is a test
-__bold__(with bracs)
+__bold__(this is a test)
