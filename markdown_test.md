@@ -6,7 +6,8 @@ and more info
 
 ---
 
-some features listed
+some features listed:
+
 *feature1
 *feature2
 
