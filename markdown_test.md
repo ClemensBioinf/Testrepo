@@ -8,8 +8,8 @@ and more info
 
 some features listed:
 
-*feature1
-*feature2
+* feature1
+* feature2
 
 ---
 
