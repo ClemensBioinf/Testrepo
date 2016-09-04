@@ -8,9 +8,6 @@ while true; do
 	/bin/sleep 1
 	git push
 	OUTPUT="$(git push 2>&1)"
-	echo "-----"
-	echo $OUTPUT
-	echo "-----"
 	/bin/sleep 2
         if [[ $OUTPUT =~ "up-to-date" ]]; then
 		echo "Pushing successful."
