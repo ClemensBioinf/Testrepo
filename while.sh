@@ -6,6 +6,8 @@ while true; do
 	/bin/sleep 1
 	git push
 	OUTPUT="$(git push)"
+	echo $OUTPUT
+	echo "-----"
 	/bin/sleep 2
         if [[ $OUTPUT =~ "Everything" ]]; then
 		echo "Pushing successful."
