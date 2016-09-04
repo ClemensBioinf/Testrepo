@@ -1,4 +1,5 @@
 #!/bin/bash
 
-VAR="$(git push)"
+VAR="$(git push 2>&1)"
+echo "----"
 echo $VAR

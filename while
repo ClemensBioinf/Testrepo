@@ -6,7 +6,8 @@ while true; do
 	git add --all
 	git commit -m "auto commit"
 	/bin/sleep 1
-	OUTPUT="$(git push)"
+	git push
+	OUTPUT="$(git push 2&>1)"
 	echo "-----"
 	echo $OUTPUT
 	echo "-----"
