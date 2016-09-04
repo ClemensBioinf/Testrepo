@@ -1,0 +1,4 @@
+#!/bin/bash
+
+VAR="$(git push)"
+echo $VAR
