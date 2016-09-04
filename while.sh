@@ -1,4 +1,4 @@
-LOOP=0
+LOOP="False"
 while [[ ${LOOP} != "*Everything\ up-to-date*" ]]
         do
                 git pull
