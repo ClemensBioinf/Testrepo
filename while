@@ -7,7 +7,7 @@ while true; do
 	git commit -m "auto commit"
 	/bin/sleep 1
 	git push
-	OUTPUT="$(git push 2&>1)"
+	OUTPUT="$(git push 2>&1)"
 	echo "-----"
 	echo $OUTPUT
 	echo "-----"
