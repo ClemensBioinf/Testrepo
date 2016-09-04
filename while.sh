@@ -6,7 +6,7 @@ while true; do
 	git push
 	OUTPUT="$(git push)"
 	/bin/sleep 2
-        if [[ $OUTPUT =~ "Everything\ up-to-date" ]]; then
+        if [[ $OUTPUT =~ "up-to-date" ]]; then
 		echo "Pushing successful."
 		break
 	fi
