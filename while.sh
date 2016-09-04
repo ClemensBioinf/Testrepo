@@ -7,7 +7,7 @@ while true; do
 	git push
 	OUTPUT="$(git push)"
 	echo "-----"
-	echo $OUTPUT
+	echo ${OUTPUT}
 	echo "-----"
 	/bin/sleep 2
         if [[ $OUTPUT =~ "Everything" ]]; then
