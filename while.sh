@@ -3,6 +3,7 @@ while true; do
 	git pull
 	git add --all
 	git commit -m "auto commit"
+	/bin/sleep 1
 	git push
 	OUTPUT="$(git push)"
 	/bin/sleep 2
