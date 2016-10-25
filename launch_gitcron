@@ -5,4 +5,4 @@ command git pull;
 command git add --all;
 command git commit -m "auto commit";
 command git push;
-echo "done"
+echo "done" > "done.txt"
